@@ -1,0 +1,120 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Epoch10",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/jhun/CLIP/ftclip_demo.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--train", "--eval", 
+                    "--model_weights_save_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch10.pth",
+                    "--model_load_weights_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch10.pth",
+                    "--image_folder_path", "/home/jhun/custom_test_2",
+                    "--vis_save_path", "/home/jhun/CLIP/visualization/after_10_cifar100_classes.png",
+                    "--num_train_epochs", "10"]       
+        },
+        {
+            "name": "Epoch15",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/jhun/CLIP/ftclip_demo.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--train", "--eval", 
+                    "--model_weights_save_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch15.pth",
+                    "--model_load_weights_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch15.pth",
+                    "--image_folder_path", "/home/jhun/custom_test_2",
+                    "--vis_save_path", "/home/jhun/CLIP/visualization/after_15_cifar100_classes.png",
+                    "--num_train_epochs", "15"]       
+        },
+        {
+            "name": "Epoch20",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/jhun/CLIP/ftclip_demo.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--train", "--eval", 
+                    "--model_weights_save_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch20.pth",
+                    "--model_load_weights_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch20.pth",
+                    "--image_folder_path", "/home/jhun/custom_test_2",
+                    "--vis_save_path", "/home/jhun/CLIP/visualization/after_20_cifar100_classes.png",
+                    "--num_train_epochs", "20"]       
+        },
+        {
+            "name": "Epoch25",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/jhun/CLIP/ftclip_demo.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--train", "--eval", 
+                    "--model_weights_save_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch25.pth",
+                    "--model_load_weights_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch25.pth",
+                    "--image_folder_path", "/home/jhun/custom_test_2",
+                    "--vis_save_path", "/home/jhun/CLIP/visualization/after_25_cifar100_classes.png",
+                    "--num_train_epochs", "25"]       
+        },
+        {
+            "name": "Epoch30",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/jhun/CLIP/ftclip_demo.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--train", "--eval", 
+                    "--model_weights_save_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch30.pth",
+                    "--model_load_weights_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch30.pth",
+                    "--image_folder_path", "/home/jhun/custom_test_2",
+                    "--vis_save_path", "/home/jhun/CLIP/visualization/after_30_cifar100_classes.png",
+                    "--num_train_epochs", "30"]       
+        },
+        {
+            "name": "Epoch40",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/jhun/CLIP/ftclip_demo.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--train", "--eval", 
+                    "--model_weights_save_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch40.pth",
+                    "--model_load_weights_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch40.pth",
+                    "--image_folder_path", "/home/jhun/custom_test_2",
+                    "--vis_save_path", "/home/jhun/CLIP/visualization/after_40_cifar100_classes.png",
+                    "--num_train_epochs", "40"]       
+        },
+        {
+            "name": "Epoch100",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/jhun/CLIP/ftclip_demo.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--train", "--eval", 
+                    "--model_weights_save_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch100.pth",
+                    "--model_load_weights_path", "/media/jhun/4TBHDD/clip_finetuning/weights/epoch100.pth",
+                    "--image_folder_path", "/home/jhun/custom_test_2",
+                    "--vis_save_path", "/home/jhun/CLIP/visualization/after_100_cifar100_classes.png",
+                    "--num_train_epochs", "100"]       
+        },
+        {
+            "name": "Epoch5",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/jhun/CLIP/ftclip_demo.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--train", "--eval", 
+                    "--model_weights_save_path", "/media/jhun/4TBHDD2/clip_finetuning/weights/epoch5.pth",
+                    "--model_load_weights_path", "/media/jhun/4TBHDD2/clip_finetuning/weights/epoch5.pth",
+                    "--image_folder_path", "/home/jhun/custom_test_3",
+                    "--vis_save_path", "/home/jhun/CLIP/visualization/custom_classes_5_classes.png",
+                    "--num_train_epochs", "30"]       
+        }
+    ]
+}
