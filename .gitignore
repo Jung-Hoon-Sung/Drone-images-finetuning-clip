@@ -8,3 +8,4 @@ __pycache__/
 thumbs.db
 .DS_Store
 .idea
+clip-roberta/pytorch_model.bin
